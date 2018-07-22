@@ -1,4 +1,5 @@
 import React from 'react';
+import Darpa from '../game/Darpa';
 // import SelectQuestionnaire from '../questionnaires/SelectQuestionnaire';
 // import Questionnaire from '../questionnaires/Questionnaire';
 
@@ -13,7 +14,9 @@ class View extends React.Component {
   
   render() {
     return (
-      <div class="wrapper">
+      <div className='wrapper'>
+        <h1 className='h1'>Welcome to Darpa</h1>
+        <Darpa />
         {/* <SelectQuestionnaire updateQuestionnaire={this.updateQuestionnaire} />
         {this.state.questionnaireId && <Questionnaire questionnaireId={this.state.questionnaireId} />} */}
       </div>
