@@ -1,6 +1,6 @@
 import React from 'react';
-import SelectQuestionnaire from '../questionnaires/SelectQuestionnaire';
-import Questionnaire from '../questionnaires/Questionnaire';
+// import SelectQuestionnaire from '../questionnaires/SelectQuestionnaire';
+// import Questionnaire from '../questionnaires/Questionnaire';
 
 class View extends React.Component {
   constructor(props) {
@@ -13,9 +13,9 @@ class View extends React.Component {
   
   render() {
     return (
-      <div>
-        <SelectQuestionnaire updateQuestionnaire={this.updateQuestionnaire} />
-        {this.state.questionnaireId && <Questionnaire questionnaireId={this.state.questionnaireId} />}
+      <div class="wrapper">
+        {/* <SelectQuestionnaire updateQuestionnaire={this.updateQuestionnaire} />
+        {this.state.questionnaireId && <Questionnaire questionnaireId={this.state.questionnaireId} />} */}
       </div>
     );
   }
