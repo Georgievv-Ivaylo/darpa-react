@@ -1,0 +1,17 @@
+{
+  "1": {
+    "id": 1,
+    "fullName": "Stoyan Daskaloff",
+    "avatar": "/img/users/avatars/1.jpg"
+  },
+  "2": {
+    "id": 2,
+    "fullName": "Diana Nikolova",
+    "avatar": "/img/users/avatars/2.jpg"
+  },
+  "3": {
+    "id": 3,
+    "fullName": "Todor Aleksandrov",
+    "avatar": "/img/users/avatars/3.jpg"
+  }
+}
