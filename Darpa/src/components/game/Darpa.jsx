@@ -48,7 +48,6 @@ class Darpa extends React.Component {
   }
 
   movePlayer = (ev) => {
-    console.log(ev);
     const player = ev;
     const playerOne = this.state.playerOne;
     const playerTwo = this.state.playerTwo;
